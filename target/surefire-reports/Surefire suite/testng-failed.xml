@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.Selenium_assignment.tests.HomePageTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="initializeWebDriver"/>
+          <include name="attachScreenshot"/>
+          <include name="endReport"/>
+          <include name="endTest"/>
+          <include name="testAmazonLogo"/>
+          <include name="closeBrowser"/>
+          <include name="openurl"/>
+        </methods>
+      </class> <!-- com.Selenium_assignment.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

@@ -1,4 +1,37 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.745 s - in TestSuite
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 7, Time elapsed: 2.44 s <<< FAILURE! - in TestSuite
+initializeWebDriver(com.Selenium_assignment.tests.BaseTest)  Time elapsed: 2.303 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 98
+Current browser version is 101.0.4951.67 with binary path C:\Users\tanugupta02\AppData\Local\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PG02P5S6', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BD69A3+2582947]
+	Ordinal0 [0x00B6A6D1+2139857]
+	Ordinal0 [0x00A63A98+1063576]
+	Ordinal0 [0x00A833B8+1192888]
+	Ordinal0 [0x00A7F235+1176117]
+	Ordinal0 [0x00A7C9E1+1165793]
+	Ordinal0 [0x00AACFFF+1363967]
+	Ordinal0 [0x00AACC2A+1362986]
+	Ordinal0 [0x00AA8366+1344358]
+	Ordinal0 [0x00A85176+1200502]
+	Ordinal0 [0x00A86066+1204326]
+	GetHandleVerifier [0x00D7BE02+1675858]
+	GetHandleVerifier [0x00E3036C+2414524]
+	GetHandleVerifier [0x00C6BB01+560977]
+	GetHandleVerifier [0x00C6A8D3+556323]
+	Ordinal0 [0x00B7020E+2163214]
+	Ordinal0 [0x00B75078+2183288]
+	Ordinal0 [0x00B751C0+2183616]
+	Ordinal0 [0x00B7EE1C+2223644]
+	BaseThreadInitThunk [0x75A06739+25]
+	RtlGetFullPathName_UEx [0x775C8FEF+1215]
+	RtlGetFullPathName_UEx [0x775C8FBD+1165]
+
+	at com.Selenium_assignment.tests.BaseTest.initializeWebDriver(BaseTest.java:85)
+

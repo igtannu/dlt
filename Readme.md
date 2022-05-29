@@ -5,7 +5,7 @@
 
 ## Packages Description
 
--com.Selenium_assignment.pages: Defining all the pages tests.
+-com.Selenium_assignment.pages: Defining all the pages tests in which we define POMS.
 
 -com.Selenium_assignment.tests: Defining all utilities needed for Screenshot.
 
