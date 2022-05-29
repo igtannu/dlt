@@ -9,7 +9,7 @@
 
 -com.Selenium_assignment.tests: Defining all utilities needed for Screenshot.
 
--com.Selenium_assignment.tests: Defining all the pages tests and asserts.
+-com.Selenium_assignment.tests: Defining all the pages tests and asserts and checks tanu mamya heelp guys how are you.
 
 ###Page.java and Test.java files description
 
